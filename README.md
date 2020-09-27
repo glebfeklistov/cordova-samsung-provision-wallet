@@ -6,6 +6,9 @@ This plugin implements Samsung Pay SDK features for card enrollment integration.
 
 - Android (Samsung devices)
 
+## Using
+It's only documentation for preview of capabilities. If you want you this plugin, contact with author for getting full version plugin.
+
 ## Installation
 
 Type one of this string in cordova application root with following params:
@@ -274,7 +277,4 @@ addCard("TYPE", "PROVIDER", "PAYLOAD", successCallback, errorCallback);
   "ERROR_ALREADY_DONE": -5,
   "ERROR_ADDRESS_UPDATED_TIME_OUT": -113
 }
-```
- ## Using
- If you want you this plugin in your app, contact with author for full version plugin
- 
+``` 
