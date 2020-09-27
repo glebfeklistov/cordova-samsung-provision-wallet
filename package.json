@@ -1,0 +1,30 @@
+{
+  "name": "cordova-samsung-provision",
+  "version": "1.0.3",
+  "description": "This plugin implements Samsung Pay SDK features for card enrollment integration. Lets customers add a bank card to Samsung Pay from the issuer app by providing the required card details.",
+  "cordova": {
+    "id": "cordova-samsung-provision",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glebfeklistov/cordova-samsung-provision.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova",
+    "android",
+    "provision",
+    "samsung",
+    "plugin"
+  ],
+  "author": "feklistovgleb@gmail.com",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/glebfeklistov/cordova-samsung-provision/issues"
+  },
+  "homepage": "https://github.com/glebfeklistov/cordova-samsung-provision"
+}
