@@ -58,7 +58,7 @@ The SamsungPay furnishes the following API method to update the Samsung Pay app 
 goToUpdatePage()
 ```
 
-## Check already enrolled cards
+## Check allready enrolled cards
 The getAllCards() method is used to request a list of the issuer's cards currently registered/enrolled by this
 user in Samsung Pay. The result is limited to cards matching the ISSUER NAME(s) specified and registered to the serviceID on the portal.
 The getAllCards() method is typically called when the issuer app wants to check card status. It does not need to be called every time
@@ -71,7 +71,7 @@ getAllCards(successCallback, errorCallback);
 Success callback structure:
 
 ```json
-{
+[{
    "cardBrand": "MASTERCARD",
    "cardId": "DSAPMC0000232557e6568c354f8142bc9a8cee6c06c21e3e",
    "cardInfo": {
@@ -85,7 +85,7 @@ Success callback structure:
       }
    },
    "cardStatus": "ACTIVE"
-}
+}]
 ```
 
 ## Get wallet information
